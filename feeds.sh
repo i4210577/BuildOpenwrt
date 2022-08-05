@@ -35,4 +35,7 @@ echo "src-git OpenClash https://github.com/vernesong/OpenClash.git;master" >> fe
 echo "Adding  bypass"
 echo "src-git bypass https://github.com/kiddin9/openwrt-bypass.git;main" >> feeds.conf.default
 
+echo "Adding theme edge"
+echo "src-git edge https://github.com/kiddin9/luci-theme-edge.git;master" >> feeds.conf.default
+
 echo "Adding Feeds Completed!!!"
