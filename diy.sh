@@ -36,4 +36,6 @@ chmod +x package/base-files/files/etc/hotplug.d/iface/99-ipv6
 # 替换默认theme
 # [ -e feeds/luci/collections/luci/Makefile ] && sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
+sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
+
 echo "DIY Completed!!!"
