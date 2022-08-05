@@ -26,4 +26,13 @@ echo "src-git ssrp https://github.com/fw876/helloworld.git;master" >> feeds.conf
 echo "Adding theme argon"
 echo "src-git carbon https://github.com/ecrasy/openwrt-package.git;master" >> feeds.conf.default
 
+echo "src-git kenzok https://github.com/kenzok8/openwrt-packages.git;master" >> feeds.conf.default
+echo "src-git small https://github.com/kenzok8/small.git;master" >> feeds.conf.default
+
+echo "Adding  OpenClash"
+echo "src-git OpenClash https://github.com/vernesong/OpenClash.git;master" >> feeds.conf.default
+
+echo "Adding  bypass"
+echo "src-git bypass https://github.com/kiddin9/openwrt-bypass.git;main" >> feeds.conf.default
+
 echo "Adding Feeds Completed!!!"
